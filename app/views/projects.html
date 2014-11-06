@@ -1,0 +1,6 @@
+﻿<section>
+    <h2 data-bind="text: name"></h2>
+</section>
+<ul data-bind="foreach: projects().elements">
+    <li><img data-bind="attr: {src: logo}"> <span data-bind="html: name"></span></li>
+</ul>
